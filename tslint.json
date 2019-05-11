@@ -1,0 +1,22 @@
+{
+  "extends": "tslint:recommended",
+  "rulesDirectory": ["custom-ts-rules"],
+  "linterOption": {
+    "exclude": [
+      "src/*.js",
+      "src/*.js.map"
+    ]
+  },
+  "rules": {
+    "max-line-length": [true, 120],
+    "triple-equals": true,
+    "linebreak-style": [true, "LF"],
+    "semicolon": true,
+    "ordered-imports": false,
+    "quotemark": [true, "single"],
+    "no-trailing-whitespace": true,
+    "object-literal-sort-keys": false,
+    "max-classes-per-file": [false],
+    "dummy-rule-boilerplate": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "creating-custom-ts-rule",
+  "version": "1.0.0",
+  "description": "Creating custom ts rule from scratch",
+  "main": "index.js",
+  "scripts": {
+    "buildRule": "tsc custom-ts-rules/dummyRuleBoilerplate.ts --lib es6"
+  },
+  "author": "Andrei Borisov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.12",
+    "@types/node": "^12.0.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "tsutils": "^3.10.0",
+    "typescript": "^3.4.5"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "preset": "ts-jest",
+    "testMatch": [
+      "**/**/*.test.ts"
+    ],
+    "testEnvironment": "node"
+  }
+}
